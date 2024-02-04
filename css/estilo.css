@@ -1,1 +1,165 @@
+header{
+    width: 100%;
+    
+}
+    
+.logo{
+    margin: 30px;
+}
 
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:#1c1c53;
+ 
+}
+
+.logoalura{
+   
+}
+
+.tituloimg{
+    padding: 20px 0 0 0;
+}
+
+
+
+.ingresodemensaje{
+    
+    width: 40%;
+    margin: 0px 20px 20px 30px;
+    
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.ingresodemensaje h3{
+margin: 2em 10px;
+font-size: 20px;
+display: inline-block;
+}
+   
+
+.ingresodemensaje i{
+    font-size: 18px;
+    margin: 0px;
+}
+
+
+.ingresodemensaje textarea{
+       display:inline-block
+}
+
+.ingresodemensaje i p{
+    display: inline;
+    margin: auto;
+    font-weight:normal;
+}
+
+.ingresodemensaje p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: none;
+    
+}
+
+
+
+
+
+
+
+textarea{
+    resize: none;
+    background-color:aquamarine;
+    font-size: 16px;
+        
+}
+
+
+textarea:focus{
+    border: 1px solid #555;
+}
+
+
+textarea::placeholder{
+    font-weight: lighter;
+    color: #BBBBBB;
+    
+}
+
+
+
+
+
+
+.salidademensaje{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0px 20px 20px 30px;
+    
+}
+
+.salidademensaje h3{
+    font-weight: bold;
+    margin: 1em;
+    font-size: 20px;
+       }
+
+.salidademensaje h4{
+        font-size: 15px;   
+         }
+.salidademensaje p{
+    font-size: 20px;
+    
+}
+
+.salidademensaje img{
+    width: 40%;
+}
+
+.botones{
+    display: inline-block;
+    margin: 10px 0 0 30px;
+}
+
+.boton, .botoncopiar {
+    width: 200px;
+    padding: 15px;
+    font-size: 16px;
+    color: rgb(243, 243, 248);
+    background: #1c1c53;
+    border:none;
+    border-radius: 7px;
+    cursor:pointer;
+    
+}
+
+.botoncopiar{
+    margin: 10px 0 0 30px;
+    background: #00d9d9;
+    color: #1c1c53;
+}
+
+.botoncopiar:hover{
+    background: #bbbbbb;
+}
+
+
+
+
+.boton:hover{
+background: #00468c;
+}
+
+
+footer{
+    padding: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
