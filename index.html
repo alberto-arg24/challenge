@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title>Encriptador de palabras</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/codigo.js"></script>
+    <script src="https://kit.fontawesome.com/373afc8bbf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><img src="img/logo.jpg" class="logoalura">
+        <img src="img/titulo.jpg" class="tituloimg"></div>
+    </header>
+    
+    <main>
+            <section class="ingresodemensaje">
+                        <h3>Ingrese el texto aqui</h3><i class="fa-solid fa-arrow-down"></i>
+                        <textarea cols="56" rows="12" id="ingreso" placeholder="Mensaje..." 
+                        name="textarea" class="ingresoDeDatos"></textarea>
+                        <i class="fa-solid fa-circle-exclamation">
+                        <p>Solo letras minúsculas sin acento</p>
+                        </i>
+                    </section>
+
+                </section>
+
+                <section class="botones">
+                <button onclick="codificar();" class="boton">Encriptar</button>
+                
+                <button onclick="decodificar();" class="boton">Desencriptar</button>
+                
+                <button onclick="borrando();" class="boton">Limpiar</button>
+                </section>
+                           
+
+              
+           
+           
+           
+                    <section class="salidademensaje">
+                        <table>
+                            <tr>
+                                <th><img src="img/Muñeco.png" id="imagenlupa"></th>
+                            </tr>
+
+                            <tr>
+                                <td class="fila1"><p id="mostrarResultado"></p>
+                                    <h3 id="mensaje1">Ningún mensaje fue encontrado</h3>
+                                    <h4 id="mensaje2">Ingresa el texto que deseas encriptar o desencriptar</h4>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td>                 
+                                    <button onclick="copiar();" class="botoncopiar"  onmouseover="sobreboton('bot4')" onmouseout="salirdelboton('bot1');";">Copiar</button>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        
+
+
+
+    </main>
+    
+
+    <footer class="pie">
+        <p>&#169;Desarrolado por Navarro Carlos Alberto para Alura</p>
+    </footer>
+
+    
+    
+</body>
+
+
+
+
+
+</html>
