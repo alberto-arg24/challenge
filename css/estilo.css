@@ -1,1 +1,230 @@
+header{
+    width: 100%;
+}
+    
+.logo{
+    margin: 30px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:#1c1c53;
+}
+
+.tituloimg{
+    padding: 20px 0 0 0;
+}
+
+
+
+.ingresodemensaje{
+    
+    width: 40%;
+    margin: 0px 20px 20px 30px;
+    
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.ingresodemensaje h3{
+margin: 0.5em 10px;
+font-size: 20px;
+display: inline-block;
+}
+   
+
+.ingresodemensaje i{
+    font-size: 18px;
+    margin: 0px;
+}
+
+textarea{
+    resize: none;
+    background-color:#dddddd;
+    font-size: 16px;
+
+    border-radius: 5px;
+    border-collapse: collapse;
+        
+}
+
+
+textarea:focus{
+    border: 1px solid #000000;
+}
+
+
+textarea::placeholder{
+    font-weight: lighter;
+    color: #BBBBBB;
+    
+}
+
+.ingresodemensaje textarea{
+       display:inline-block
+}
+
+.ingresodemensaje i p{
+    display: inline;
+    margin: auto;
+    font-weight:normal;
+}
+
+.ingresodemensaje p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: none;
+    
+}
+
+.salidademensaje{
+    
+    position: absolute;
+    top: 99px;
+    left: 550px;
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0px 20px 20px 30px;
+    
+}
+
+.salidademensaje h3{
+    font-weight: bold;
+    margin: 1em;
+    font-size: 20px;
+       }
+
+.salidademensaje h4{
+        font-size: 15px;  
+        margin: 1em; 
+         }
+.salidademensaje p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.salidademensaje img{
+    width: 40%;
+}
+
+.salidademensaje table{
+    width: 100%;
+    text-align: center;
+
+    
+     
+}
+
+.fila1{
+    background: #dddddd ;
+    width: auto;
+    
+    border-radius: 10px;
+    
+ 
+}
+
+.botones{
+   
+    display: block;
+    margin: 10px 0 20px 30px;
+}
+
+.boton, .botoncopiar {
+    width: 185 px;
+    padding: 15px;
+    font-size: 16px;
+    color: rgb(243, 243, 248);
+    background: #1c1c53;
+    border:none;
+    border-radius: 7px;
+    cursor:pointer;
+    
+}
+
+.botoncopiar{
+    margin: 10px 0 0 30px;
+    color: #ffffff;
+}
+
+.botoncopiar:hover{
+    background: #bbbbbb;
+    color: #100040;
+}
+
+.boton:hover{
+background: #00468c;
+}
+
+
+footer{
+    background: #AAAAAA;
+    padding: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    
+
+            header{
+                width: 100%;
+                display: inline-block;
+                text-align: center;
+            }
+            
+            .logo{
+                width: auto;
+            }
+
+
+            .tituloimg{
+                width: auto;
+            }
+            
+
+            .ingresodemensaje{
+                width: auto;
+                text-align: center;
+            }
+
+            .ingresodemensaje textarea{
+                width: 100%;
+                height: 150px;
+                margin-left: 20px;
+            }
+
+            .botones{
+                text-align: center;
+            }
+                 
+
+            .salidademensaje, .salidademensaje table td tr{
+                
+                position: static;
+                width: 100%;
+            }
+                
+            footer{
+                width: 100%;
+                }
+
+            .pie{
+                width: 100%;
+            }
+
+
+
+}
+
 
